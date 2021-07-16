@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name Wii-reg-rescue)(type Legacy)(uri "/Users/Mark/Documents/ConsoleModification/PiPortable/Pi_Portable_PCB/Wii-Power-Management-System-master/WiiPMS KiCAD files/Wii reg-rescue.lib")(options "")(descr ""))
+  (lib (name pic16f15324)(type Legacy)(uri "/Users/Mark/Documents/ConsoleModification/PiPortable/Pi_Portable_PCB/Wii-Power-Management-System-master/WiiPMS KiCAD files/pic16f15324.lib")(options "")(descr ""))
+  (lib (name PiPortableSymbols)(type Legacy)(uri ${KIPRJMOD}/PiPortableSymbols.lib)(options "")(descr ""))
+  (lib (name ATmega32U4)(type Legacy)(uri ${KIPRJMOD}/kicad-ATmega32U4-master/ATmega32U4-symbol/ATmega32U4.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/LM3940IMP-3.3/eec.lib)(options "")(descr ""))
+  (lib (name AO3400A)(type Legacy)(uri ${KIPRJMOD}/AO3400A/AO3400A.lib)(options "")(descr ""))
+  (lib (name Raspberry_Pi_2_or_3)(type Legacy)(uri ${KIPRJMOD}/Raspberry-Pi-3-library-for-kicad-master/Raspberry_Pi_2_or_3.lib)(options "")(descr ""))
+  (lib (name PiPortableBackingBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/PiPortableBackingBoard-rescue.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri /Users/Mark/Documents/ConsoleModification/PiPortable/Pi_Portable_PCB/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+)

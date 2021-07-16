@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name PiPortableBackingBoard)(type KiCad)(uri ${KIPRJMOD}/PiPortableBackingBoard.pretty)(options "")(descr ""))
+  (lib (name RaspberryPi4)(type KiCad)(uri ${KIPRJMOD}/RaspberryPi4.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/LM3940IMP-3.3/eec.pretty)(options "")(descr ""))
+  (lib (name ATmega32U4)(type KiCad)(uri ${KIPRJMOD}/kicad-ATmega32U4-master/ATmega32U4.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri /Users/Mark/Documents/ConsoleModification/PiPortable/Pi_Portable_PCB/Type-C.pretty)(options "")(descr ""))
+)

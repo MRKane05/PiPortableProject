@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# XOST_Buttons-PS2BoardItems
+#
+DEF XOST_Buttons-PS2BoardItems U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "XOST_Buttons-PS2BoardItems" 0 -400 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+S -50 200 200 -300 0 1 0 N
+X COM 1 -150 150 100 R 50 50 1 1 I
+X T 2 -150 50 100 R 50 50 1 1 I
+X O 3 -150 -50 100 R 50 50 1 1 I
+X X 4 -150 -150 100 R 50 50 1 1 I
+X S 5 -150 -250 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

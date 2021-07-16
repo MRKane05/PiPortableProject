@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC16F18876-I_P
+D Microchip PIC16F18876-I/P, 8bit Microcontroller, 32MHz, 28 kB Flash, 40-Pin PDIP
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16(L)F18856_76%20Data%20Sheet%20DS40001824C.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,778 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9950 5350 9950 5600
+Wire Wire Line
+	9950 4850 9950 5050
+Wire Wire Line
+	9950 4350 10050 4350
+Connection ~ 9950 4350
+Wire Wire Line
+	9950 4550 9950 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD92E
+P 9950 5600
+F 0 "#PWR?" H 9950 5350 50  0001 C CNN
+F 1 "GND" H 9955 5427 50  0000 C CNN
+F 2 "" H 9950 5600 50  0001 C CNN
+F 3 "" H 9950 5600 50  0001 C CNN
+	1    9950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F8AD934
+P 9950 5200
+F 0 "D?" V 9988 5083 50  0000 R CNN
+F 1 "LED" V 9897 5083 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9950 5200 50  0001 C CNN
+F 3 "~" H 9950 5200 50  0001 C CNN
+	1    9950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8AD93A
+P 9950 4700
+F 0 "R?" H 10020 4746 50  0000 L CNN
+F 1 "R" H 10020 4655 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9880 4700 50  0001 C CNN
+F 3 "~" H 9950 4700 50  0001 C CNN
+	1    9950 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 6750 0    50   Input ~ 0
+A5
+Text GLabel 1800 6650 0    50   Input ~ 0
+A4
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8AD942
+P 5550 4750
+F 0 "#PWR?" H 5550 4600 50  0001 C CNN
+F 1 "VCC" H 5567 4923 50  0000 C CNN
+F 2 "" H 5550 4750 50  0001 C CNN
+F 3 "" H 5550 4750 50  0001 C CNN
+	1    5550 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8AD948
+P 5300 4750
+F 0 "#PWR?" H 5300 4600 50  0001 C CNN
+F 1 "VCC" H 5317 4923 50  0000 C CNN
+F 2 "" H 5300 4750 50  0001 C CNN
+F 3 "" H 5300 4750 50  0001 C CNN
+	1    5300 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5250 5550 5250
+Wire Wire Line
+	5550 5250 5550 5050
+Wire Wire Line
+	4900 5150 5300 5150
+Wire Wire Line
+	5300 5150 5300 5050
+$Comp
+L Device:R R?
+U 1 1 5F8AD952
+P 5550 4900
+F 0 "R?" H 5620 4946 50  0000 L CNN
+F 1 "R" H 5620 4855 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5480 4900 50  0001 C CNN
+F 3 "~" H 5550 4900 50  0001 C CNN
+	1    5550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8AD958
+P 5300 4900
+F 0 "R?" H 5370 4946 50  0000 L CNN
+F 1 "R" H 5370 4855 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5230 4900 50  0001 C CNN
+F 3 "~" H 5300 4900 50  0001 C CNN
+	1    5300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_06FEMALE_LOCK J?
+U 1 1 5F8AD95F
+P 4450 6850
+F 0 "J?" H 4406 7660 45  0000 C CNN
+F 1 "CONN_06FEMALE_LOCK" H 4406 7576 45  0000 C CNN
+F 2 "Connectors:1X06_FEMALE_LOCK.010" H 4450 7550 20  0001 C CNN
+F 3 "" H 4450 6850 50  0001 C CNN
+F 4 "XXX-00000" H 4406 7481 60  0000 C CNN "Field4"
+	1    4450 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 2650 0    50   Input ~ 0
+AREF
+Wire Notes Line
+	1550 2450 1550 1000
+Wire Notes Line
+	5150 2450 1550 2450
+Wire Notes Line
+	5150 1000 5150 2450
+Wire Notes Line
+	1550 1000 5150 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD96A
+P 4700 1900
+F 0 "#PWR?" H 4700 1650 50  0001 C CNN
+F 1 "GND" H 4705 1727 50  0000 C CNN
+F 2 "" H 4700 1900 50  0001 C CNN
+F 3 "" H 4700 1900 50  0001 C CNN
+	1    4700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD970
+P 4350 1900
+F 0 "#PWR?" H 4350 1650 50  0001 C CNN
+F 1 "GND" H 4355 1727 50  0000 C CNN
+F 2 "" H 4350 1900 50  0001 C CNN
+F 3 "" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1450 4700 1450
+Connection ~ 4350 1450
+Wire Wire Line
+	4350 1600 4350 1450
+Connection ~ 4700 1450
+Wire Wire Line
+	4700 1600 4700 1450
+Wire Wire Line
+	4700 1450 4700 1300
+Wire Wire Line
+	4100 1450 4350 1450
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8AD97D
+P 4700 1300
+F 0 "#PWR?" H 4700 1150 50  0001 C CNN
+F 1 "VCC" H 4717 1473 50  0000 C CNN
+F 2 "" H 4700 1300 50  0001 C CNN
+F 3 "" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8AD983
+P 4700 1750
+F 0 "C?" H 4815 1796 50  0000 L CNN
+F 1 "0.1u" H 4815 1705 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4738 1600 50  0001 C CNN
+F 3 "~" H 4700 1750 50  0001 C CNN
+	1    4700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8AD989
+P 4350 1750
+F 0 "C?" H 4465 1796 50  0000 L CNN
+F 1 "10u" H 4465 1705 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 4388 1600 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 1450
+Wire Wire Line
+	3800 1450 3550 1450
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5F8AD991
+P 3950 1450
+F 0 "JP?" H 3950 1655 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3950 1564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 3950 1450 50  0001 C CNN
+F 3 "~" H 3950 1450 50  0001 C CNN
+	1    3950 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 1450
+Wire Wire Line
+	2000 1450 2150 1450
+Text GLabel 2000 1450 0    50   Input ~ 0
+RAW
+Connection ~ 2500 1450
+Wire Wire Line
+	2150 1450 2150 1500
+Wire Wire Line
+	2500 1450 2150 1450
+Wire Wire Line
+	2500 1450 2600 1450
+Wire Wire Line
+	2500 1550 2500 1450
+Wire Wire Line
+	2600 1550 2500 1550
+Wire Wire Line
+	3550 1450 3550 1600
+Wire Wire Line
+	3200 1450 3550 1450
+$Comp
+L Device:LED D?
+U 1 1 5F8AD9A2
+P 3550 1750
+F 0 "D?" V 3588 1632 50  0000 R CNN
+F 1 "red" V 3497 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3550 1750 50  0001 C CNN
+F 3 "~" H 3550 1750 50  0001 C CNN
+	1    3550 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8AD9A8
+P 3550 2050
+F 0 "R?" H 3620 2096 50  0000 L CNN
+F 1 "10k" H 3620 2005 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3480 2050 50  0001 C CNN
+F 3 "~" H 3550 2050 50  0001 C CNN
+	1    3550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD9AE
+P 3550 2200
+F 0 "#PWR?" H 3550 1950 50  0001 C CNN
+F 1 "GND" H 3555 2027 50  0000 C CNN
+F 2 "" H 3550 2200 50  0001 C CNN
+F 3 "" H 3550 2200 50  0001 C CNN
+	1    3550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD9B4
+P 2900 1850
+F 0 "#PWR?" H 2900 1600 50  0001 C CNN
+F 1 "GND" H 2905 1677 50  0000 C CNN
+F 2 "" H 2900 1850 50  0001 C CNN
+F 3 "" H 2900 1850 50  0001 C CNN
+	1    2900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD9BA
+P 2150 1800
+F 0 "#PWR?" H 2150 1550 50  0001 C CNN
+F 1 "GND" H 2155 1627 50  0000 C CNN
+F 2 "" H 2150 1800 50  0001 C CNN
+F 3 "" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8AD9C0
+P 2150 1650
+F 0 "C?" H 2265 1696 50  0000 L CNN
+F 1 "10u" H 2265 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 2188 1500 50  0001 C CNN
+F 3 "~" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MIC5205-2.5YM5 U?
+U 1 1 5F8AD9C6
+P 2900 1550
+F 0 "U?" H 2900 1892 50  0000 C CNN
+F 1 "MIC5205-2.5YM5" H 2900 1801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2900 1875 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf" H 2900 1550 50  0001 C CNN
+	1    2900 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 1900 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	5950 1900 6200 1900
+Text GLabel 5950 1900 0    50   Input ~ 0
+DTR
+Text Label 7450 1900 0    50   ~ 0
+RESET
+Wire Wire Line
+	7700 1900 6800 1900
+Wire Wire Line
+	7700 2050 7700 1900
+Wire Wire Line
+	8000 2050 7700 2050
+Wire Wire Line
+	6800 1350 6800 1500
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8AD9D4
+P 6800 1350
+F 0 "#PWR?" H 6800 1200 50  0001 C CNN
+F 1 "VCC" H 6700 1350 50  0000 C CNN
+F 2 "" H 6800 1350 50  0001 C CNN
+F 3 "" H 6800 1350 50  0001 C CNN
+	1    6800 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2450 6750 2450
+Connection ~ 6800 2450
+Wire Wire Line
+	6800 2700 6800 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AD9DD
+P 6800 2700
+F 0 "#PWR?" H 6800 2450 50  0001 C CNN
+F 1 "GND" H 6805 2527 50  0000 C CNN
+F 2 "" H 6800 2700 50  0001 C CNN
+F 3 "" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2450 6800 2450
+Connection ~ 6800 2050
+Wire Wire Line
+	6800 2050 6850 2050
+Connection ~ 6800 1900
+Wire Wire Line
+	6800 2050 6750 2050
+Wire Wire Line
+	6800 1900 6800 2050
+Wire Wire Line
+	6800 1900 6800 1800
+Wire Wire Line
+	6500 1900 6800 1900
+$Comp
+L Device:C C?
+U 1 1 5F8AD9EB
+P 6350 1900
+F 0 "C?" V 6098 1900 50  0000 C CNN
+F 1 "0.1u" V 6189 1900 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6388 1750 50  0001 C CNN
+F 3 "~" H 6350 1900 50  0001 C CNN
+	1    6350 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Switches:MOMENTARY-SWITCH-SPST-2-SMD-5.2MM S?
+U 1 1 5F8AD9F2
+P 6750 2250
+F 0 "S?" V 6845 2097 45  0000 R CNN
+F 1 "MOMENTARY-SWITCH-SPST-2-SMD-5.2MM" V 6450 3100 45  0000 R CNN
+F 2 "Switches:TACTILE_SWITCH_SMD_5.2MM" H 6750 2500 20  0001 C CNN
+F 3 "" H 6750 2250 50  0001 C CNN
+F 4 "SWCH-08247" V 6666 2097 60  0000 R CNN "Field4"
+	1    6750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8AD9F8
+P 6800 1650
+F 0 "R?" H 6870 1696 50  0000 L CNN
+F 1 "10k" H 6870 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6730 1650 50  0001 C CNN
+F 3 "~" H 6800 1650 50  0001 C CNN
+	1    6800 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 2350
+Wire Wire Line
+	7800 2450 7800 2350
+Wire Wire Line
+	8000 2450 7800 2450
+Connection ~ 7800 2250
+Wire Wire Line
+	7800 2350 7800 2250
+Wire Wire Line
+	8000 2350 7800 2350
+Wire Wire Line
+	7800 2250 7800 2200
+Wire Wire Line
+	8000 2250 7800 2250
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8ADA06
+P 7800 2200
+F 0 "#PWR?" H 7800 2050 50  0001 C CNN
+F 1 "VCC" H 7700 2200 50  0000 C CNN
+F 2 "" H 7800 2200 50  0001 C CNN
+F 3 "" H 7800 2200 50  0001 C CNN
+	1    7800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2650 7150 2800
+Wire Wire Line
+	8000 2650 7150 2650
+$Comp
+L Device:C C?
+U 1 1 5F8ADA0E
+P 7150 2950
+F 0 "C?" H 7265 2996 50  0000 L CNN
+F 1 "0.1u" H 7265 2905 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7188 2800 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8ADA14
+P 7150 3100
+F 0 "#PWR?" H 7150 2850 50  0001 C CNN
+F 1 "GND" H 7155 2927 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F8ADA1A
+P 7500 4050
+F 0 "#PWR?" H 7500 3900 50  0001 C CNN
+F 1 "VCC" H 7517 4223 50  0000 C CNN
+F 2 "" H 7500 4050 50  0001 C CNN
+F 3 "" H 7500 4050 50  0001 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8ADA20
+P 7500 4200
+F 0 "C?" H 7615 4246 50  0000 L CNN
+F 1 "0.1u" H 7615 4155 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7538 4050 50  0001 C CNN
+F 3 "~" H 7500 4200 50  0001 C CNN
+	1    7500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8ADA26
+P 7500 4350
+F 0 "#PWR?" H 7500 4100 50  0001 C CNN
+F 1 "GND" H 7505 4177 50  0000 C CNN
+F 2 "" H 7500 4350 50  0001 C CNN
+F 3 "" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3150 7600 3250
+Wire Wire Line
+	7700 3150 7600 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5F8ADA2E
+P 7600 3250
+F 0 "#PWR?" H 7600 3000 50  0001 C CNN
+F 1 "GND" H 7605 3077 50  0000 C CNN
+F 2 "" H 7600 3250 50  0001 C CNN
+F 3 "" H 7600 3250 50  0001 C CNN
+	1    7600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator_Small Y?
+U 1 1 5F8ADA34
+P 7900 3150
+F 0 "Y?" V 7595 3100 50  0000 C CNN
+F 1 "Resonator_Small" V 7686 3100 50  0000 C CNN
+F 2 "Clocks:RESONATOR-SMD-3.2X1.3" H 7875 3150 50  0001 C CNN
+F 3 "~" H 7875 3150 50  0001 C CNN
+	1    7900 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 4250 7800 4350
+Connection ~ 7800 4250
+Wire Wire Line
+	8000 4250 7800 4250
+Wire Wire Line
+	7800 4150 7800 4250
+Connection ~ 7800 4150
+Wire Wire Line
+	8000 4150 7800 4150
+Wire Wire Line
+	7800 4050 7800 4150
+Wire Wire Line
+	8000 4050 7800 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5F8ADA42
+P 7800 4350
+F 0 "#PWR?" H 7800 4100 50  0001 C CNN
+F 1 "GND" H 7805 4177 50  0000 C CNN
+F 2 "" H 7800 4350 50  0001 C CNN
+F 3 "" H 7800 4350 50  0001 C CNN
+	1    7800 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 2550 2    50   Input ~ 0
+A5
+Text GLabel 9900 2450 2    50   Input ~ 0
+A4
+Wire Wire Line
+	9900 4350 9950 4350
+Text GLabel 9900 2750 2    50   Input ~ 0
+A7
+Text GLabel 9900 2650 2    50   Input ~ 0
+A6
+Text GLabel 9900 4050 2    50   Input ~ 0
+D10
+Text GLabel 9900 4150 2    50   Input ~ 0
+MOSI
+Text GLabel 9900 4250 2    50   Input ~ 0
+MISO
+Text GLabel 10050 4350 2    50   Input ~ 0
+SCK
+Text GLabel 9900 2050 2    50   Input ~ 0
+A0
+Text GLabel 9900 2150 2    50   Input ~ 0
+A1
+Text GLabel 9900 2250 2    50   Input ~ 0
+A2
+Text GLabel 9900 2350 2    50   Input ~ 0
+A3
+Text GLabel 9900 3950 2    50   Input ~ 0
+D9
+Text GLabel 9900 3850 2    50   Input ~ 0
+D8
+Text GLabel 9900 3650 2    50   Input ~ 0
+D7
+Text GLabel 9900 3550 2    50   Input ~ 0
+D6
+Text GLabel 9900 3450 2    50   Input ~ 0
+D5
+Text GLabel 9900 3350 2    50   Input ~ 0
+D4
+Text GLabel 9900 3250 2    50   Input ~ 0
+D3
+Text GLabel 9900 3150 2    50   Input ~ 0
+D2
+Text GLabel 9900 2950 2    50   Input ~ 0
+RXI
+Text GLabel 9900 3050 2    50   Input ~ 0
+TXO
+$Comp
+L SparkFun-IC-Microcontroller:ATMEGA328P_TQFP U?
+U 1 1 5F8ADA60
+P 8950 3200
+F 0 "U?" H 8950 4710 45  0000 C CNN
+F 1 "ATMEGA328P_TQFP" H 8950 4626 45  0000 C CNN
+F 2 "Silicon-Standard:TQFP32-08" H 8950 4550 20  0001 C CNN
+F 3 "" H 8950 3200 50  0001 C CNN
+F 4 "IC-09069" H 8950 4531 60  0000 C CNN "Field4"
+	1    8950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4950 3050 4950
+Wire Wire Line
+	3050 5050 2850 5050
+Wire Wire Line
+	2850 5150 3050 5150
+Wire Wire Line
+	3050 5250 2850 5250
+Wire Wire Line
+	2850 5350 3050 5350
+Wire Wire Line
+	3050 5450 2850 5450
+Wire Wire Line
+	2850 5550 3050 5550
+Wire Wire Line
+	3050 5650 2850 5650
+Wire Wire Line
+	2850 5750 3050 5750
+Wire Wire Line
+	3050 5850 2850 5850
+Wire Wire Line
+	2850 5950 3050 5950
+Wire Wire Line
+	3050 6050 2850 6050
+Wire Wire Line
+	2100 6050 1900 6050
+Wire Wire Line
+	1900 5950 2100 5950
+Wire Wire Line
+	2100 5850 1900 5850
+Wire Wire Line
+	1900 5750 2100 5750
+Wire Wire Line
+	2100 5650 1900 5650
+Wire Wire Line
+	1900 5550 2100 5550
+Wire Wire Line
+	2100 5450 1900 5450
+Wire Wire Line
+	1900 5350 2100 5350
+Wire Wire Line
+	2100 5250 1900 5250
+Wire Wire Line
+	1900 5150 2100 5150
+Wire Wire Line
+	2100 5050 1900 5050
+Wire Wire Line
+	1900 4950 2100 4950
+Wire Wire Line
+	4800 6850 4550 6850
+Wire Wire Line
+	4550 6750 4800 6750
+Wire Wire Line
+	4800 6650 4550 6650
+Wire Wire Line
+	4550 6550 4800 6550
+Wire Wire Line
+	4800 6450 4550 6450
+Wire Wire Line
+	4550 6350 4800 6350
+Wire Wire Line
+	3400 6750 3150 6750
+Wire Wire Line
+	3150 6650 3400 6650
+Text GLabel 3400 6750 2    50   Input ~ 0
+A7
+Text GLabel 3400 6650 2    50   Input ~ 0
+A6
+Text GLabel 4900 5250 0    50   Input ~ 0
+A5
+Text GLabel 4900 5150 0    50   Input ~ 0
+A4
+$Comp
+L SparkFun-Connectors:CONN_02 J?
+U 1 1 5F8ADA8B
+P 3050 6750
+F 0 "J?" H 3006 7160 45  0000 C CNN
+F 1 "CONN_02" H 3006 7076 45  0000 C CNN
+F 2 "Connectors:1X02" H 3050 7000 20  0001 C CNN
+F 3 "" H 3050 6750 50  0001 C CNN
+F 4 "XXX-00000" H 3006 6981 60  0000 C CNN "Field4"
+	1    3050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_02 J?
+U 1 1 5F8ADA92
+P 1900 6650
+F 0 "J?" H 1672 6605 45  0000 R CNN
+F 1 "CONN_02" H 1672 6689 45  0000 R CNN
+F 2 "Connectors:1X02" H 1900 6900 20  0001 C CNN
+F 3 "" H 1900 6650 50  0001 C CNN
+F 4 "XXX-00000" H 1672 6784 60  0000 R CNN "Field4"
+	1    1900 6650
+	-1   0    0    1   
+$EndComp
+Text GLabel 2850 6050 0    50   Input ~ 0
+D10
+Text GLabel 2850 5950 0    50   Input ~ 0
+MOSI
+Text GLabel 2850 5850 0    50   Input ~ 0
+MISO
+Text GLabel 2850 5750 0    50   Input ~ 0
+SCK
+Text GLabel 2850 5650 0    50   Input ~ 0
+A0
+Text GLabel 2850 5550 0    50   Input ~ 0
+A1
+Text GLabel 2850 5450 0    50   Input ~ 0
+A2
+Text GLabel 2850 5350 0    50   Input ~ 0
+A3
+Text GLabel 2850 5250 0    50   Input ~ 0
+VCC
+Text GLabel 2850 5150 0    50   Input ~ 0
+RESET
+Text GLabel 2850 5050 0    50   Input ~ 0
+GND
+Text GLabel 2850 4950 0    50   Input ~ 0
+RAW
+Text GLabel 2100 6050 2    50   Input ~ 0
+D9
+Text GLabel 2100 5950 2    50   Input ~ 0
+D8
+Text GLabel 2100 5850 2    50   Input ~ 0
+D7
+Text GLabel 2100 5750 2    50   Input ~ 0
+D6
+Text GLabel 2100 5650 2    50   Input ~ 0
+D5
+Text GLabel 2100 5550 2    50   Input ~ 0
+D4
+Text GLabel 2100 5450 2    50   Input ~ 0
+D3
+Text GLabel 2100 5350 2    50   Input ~ 0
+D2
+Text GLabel 2100 5250 2    50   Input ~ 0
+GND
+Text GLabel 2100 5150 2    50   Input ~ 0
+RESET
+Text GLabel 2100 5050 2    50   Input ~ 0
+RXI
+Text GLabel 2100 4950 2    50   Input ~ 0
+TXO
+Text GLabel 4800 6850 2    50   Input ~ 0
+DTR
+Text GLabel 4800 6750 2    50   Input ~ 0
+TXO
+Text GLabel 4800 6650 2    50   Input ~ 0
+RXI
+Text GLabel 4800 6550 2    50   Input ~ 0
+VCC
+Text GLabel 4800 6450 2    50   Input ~ 0
+GND
+Text GLabel 4800 6350 2    50   Input ~ 0
+GND
+$Comp
+L SparkFun-Connectors:CONN_12 J?
+U 1 1 5F8ADAB7
+P 3150 4950
+F 0 "J?" H 2872 5405 45  0000 R CNN
+F 1 "CONN_12" H 2872 5489 45  0000 R CNN
+F 2 "Connectors:1X12" H 3150 6250 20  0001 C CNN
+F 3 "" H 3150 4950 50  0001 C CNN
+F 4 "XXX-00000" H 2872 5584 60  0000 R CNN "Field4"
+	1    3150 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_12 J?
+U 1 1 5F8ADABE
+P 1800 6050
+F 0 "J?" H 1731 7460 45  0000 C CNN
+F 1 "CONN_12" H 1731 7376 45  0000 C CNN
+F 2 "Connectors:1X12" H 1800 7350 20  0001 C CNN
+F 3 "" H 1800 6050 50  0001 C CNN
+F 4 "XXX-00000" H 1731 7281 60  0000 C CNN "Field4"
+	1    1800 6050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
